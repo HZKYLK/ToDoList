@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="编辑"
+                android:text="@string/edit"
                 android:textColor="@color/white"
                 android:textSize="18sp"/>
         </android.support.v7.widget.Toolbar>
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:maxLength="@integer/max_todo_titel_length"
-        android:text="编辑"
+        android:text="@string/edit"
         android:textColor="@color/black"
         android:textSize="22sp"
         android:padding="20sp"
@@ -47,7 +47,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
-        android:hint="标题"
+        android:hint="@string/title"
         android:inputType="text" />
 
     <View
@@ -62,7 +62,7 @@
         android:layout_gravity="top"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:hint="描述"
+        android:hint="@string/description"
         android:inputType="textMultiLine"
         android:maxLines="15"
         android:minLines="1" />
@@ -88,7 +88,7 @@
             android:drawableLeft="@android:drawable/ic_menu_my_calendar"
             android:drawablePadding="5dp"
             android:gravity="center_vertical"
-            android:text="日期" />
+            android:text="@string/date" />
 
         <TextView
             android:id="@+id/edit_todo_time"
@@ -98,7 +98,7 @@
             android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
             android:drawablePadding="5dp"
             android:gravity="center_vertical"
-            android:text="时间" />
+            android:text="@string/time" />
 
     </LinearLayout>
 
@@ -124,7 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:minHeight="48dip"
-            android:text="取消" />
+            android:text="@string/cancel" />
 
         <Button
             android:id="@+id/bt_edit_ok"
@@ -133,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:minHeight="48dip"
-            android:text="确定" />
+            android:text="@string/sure" />
 
     </LinearLayout>
 

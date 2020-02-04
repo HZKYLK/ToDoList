@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="12sp"
-                tools:text="2018年1月1日" />
+                tools:text="@string/date1" />
 
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/todo_title"
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:gravity="right"
-                tools:text="单次"
+                tools:text="@string/one"
                 tools:textSize="8sp"/>
 
 

@@ -7,23 +7,27 @@
         <item
             android:id="@+id/nav_todo"
             android:icon="@drawable/ic_assignment_black_48dp"
-            android:title="待办事项" />
+            android:title="@string/note" />
         <item
             android:id="@+id/nav_clock"
             android:icon="@drawable/ic_clock_black_48dp"
-            android:title="番茄时钟" />
+            android:title="@string/clock1" />
         <item
             android:id="@+id/nav_frends"
             android:icon="@drawable/ic_insert_chart_black_24dp"
-            android:title="记录" />
+            android:title="@string/record" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_about"
-            android:title="关于" />
+            android:title="@string/about" />
         <item
-            android:id="@+id/nav_setting"
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/set" />
+        <item
+            android:id="@+id/nav_language"
             android:icon="@drawable/ic_setting"
-            android:title="设置" />
+            android:title="@string/language" />
     </group>
 
 </menu>

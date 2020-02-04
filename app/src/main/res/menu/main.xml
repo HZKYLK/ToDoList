@@ -9,6 +9,6 @@
     <item
         android:id="@+id/menu_focus"
         android:orderInCategory="100"
-        android:title="专注模式"
+        android:title="@string/model1"
         app:showAsAction="never" />
 </menu>

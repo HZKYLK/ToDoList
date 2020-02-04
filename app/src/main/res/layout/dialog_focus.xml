@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:background="@color/colorPrimary"
-        android:text="专注模式设置"
+        android:text="@string/set1"
         android:textSize="18sp"
         android:textColor="@color/white"/>
 
@@ -39,13 +39,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="专注模式"
+                    android:text="@string/model1"
                     android:textColor="@color/black" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="打开专注模式将阻止其他App打开"
+                    android:text="@string/remind"
                     android:textSize="10sp"/>
 
             </LinearLayout>

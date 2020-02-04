@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:paddingLeft="15dp"
-            android:text="未登录"
+            android:text="@string/no_login"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="20sp"/>
 
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:paddingLeft="15dp"
-            android:text="此时，此地，此身"
+            android:text="@string/place"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="15sp"/>
 

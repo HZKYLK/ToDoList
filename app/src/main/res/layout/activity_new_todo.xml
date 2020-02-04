@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="@color/colorPrimary"
-            app:title="新建待办">
+            app:title="@string/new_task">
 
             <RelativeLayout
                 android:layout_width="match_parent"

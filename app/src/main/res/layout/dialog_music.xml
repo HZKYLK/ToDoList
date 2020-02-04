@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingBottom="10dp"
-        android:text="白噪音"
+        android:text="@string/white_noise"
         android:textColor="@color/colorPrimary"
         android:textSize="20sp"/>
 
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:gravity="center"
-                android:text="流水"
+                android:text="@string/water"
                 android:textColor="@color/black_semi"
                 android:textSize="16sp"
                 />
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginLeft="5dp"
-                android:text="雷雨"
+                android:text="@string/rain"
                 android:textColor="@color/black_semi"
                 android:textSize="16sp"
                 />
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginLeft="5dp"
-                android:text="海浪"
+                android:text="@string/sea"
                 android:textColor="@color/black_semi"
                 android:textSize="16sp"
                 />
@@ -150,7 +150,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:gravity="center"
-                android:text="鸟叫"
+                android:text="@string/bird"
                 android:textColor="@color/black_semi"
                 android:textSize="16sp" />
 
@@ -185,7 +185,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:gravity="center"
-                android:text="火焰"
+                android:text="@string/fire"
                 android:textColor="@color/black_semi"
                 android:textSize="16sp" />
 

@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="修改密码"
+        android:text="@string/change_password"
         android:textSize="20sp"
         android:textColor="@color/black"/>
 
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="旧密码" />
+        android:text="@string/old_password" />
 
     <EditText
         android:id="@+id/old_pwd"
@@ -32,7 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="新密码" />
+        android:text="@string/new_password" />
 
     <EditText
         android:id="@+id/new_pwd"
