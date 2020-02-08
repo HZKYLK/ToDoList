@@ -49,6 +49,7 @@ import com.example.lulin.todolist.Utils.SPUtils;
 import com.example.lulin.todolist.Bean.User;
 import com.example.lulin.todolist.Widget.CircleImageView;
 import com.example.lulin.todolist.assignment.language;
+import com.example.lulin.todolist.background.background;
 import com.kekstudio.dachshundtablayout.DachshundTabLayout;
 import com.kekstudio.dachshundtablayout.indicators.DachshundIndicator;
 
@@ -451,6 +452,12 @@ public class MainActivity extends BasicActivity implements NavigationView.OnNavi
 
                 Intent intent4 = new Intent(MainActivity.this, language.class);
                 startActivityForResult(intent4,1);
+
+                break;
+            case R.id.nav_background:
+
+                Intent intent5 = new Intent(MainActivity.this, background.class);
+                startActivityForResult(intent5,1);
 
                 break;
         }

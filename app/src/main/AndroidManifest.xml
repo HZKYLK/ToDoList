@@ -40,7 +40,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".assignment.language2"></activity>
+        <activity android:name=".background.background"></activity>
+        <activity android:name=".assignment.language2" />
         <activity android:name=".assignment.language" />
 
         <provider
