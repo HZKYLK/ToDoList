@@ -8,15 +8,15 @@
 
     <RadioGroup
         android:id="@+id/radio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
         android:layout_marginTop="100dp"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radio_cn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="181dp"
+            android:layout_height="151dp"
             android:checked="true"
             android:text="cn" />
 
@@ -29,11 +29,11 @@
     </RadioGroup>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary"
         android:onClick="onClick"
-        android:padding="30dp"
         android:text="click" />
 
 
